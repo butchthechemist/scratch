@@ -1,0 +1,29 @@
+{
+  "name": "scratch",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "esri-wab-build C:/arcgis-web-appbuilder-2.8/WebAppBuilderForArcGIS/server/apps/2"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:butchthechemist/scratch.git"
+  },
+  "author": "butch",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-modules-simple-amd": "^0.3.0",
+    "babel-preset-es2015-without-strict": "0.0.4",
+    "babel-preset-stage-0": "^6.24.1",
+    "esri-wab-build": "^1.0.0",
+    "grunt": "^1.0.2",
+    "grunt-babel": "^7.0.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^2.1.0",
+    "grunt-sync": "^0.7.0"
+  }
+}
